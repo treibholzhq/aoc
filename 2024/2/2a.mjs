@@ -3,7 +3,10 @@ import { fromFile } from 'gen-readlines';
 let safe = 0;
 
 for (const report of fromFile(`${import.meta.dirname}/input.txt`)) {
-  const layers = report.toString().split(' ').map(v => parseInt(v));
+  const layers = report
+    .toString()
+    .split(' ')
+    .map((v) => parseInt(v));
   let m = 0;
 
   for (let i = 1; i < layers.length; i++) {
