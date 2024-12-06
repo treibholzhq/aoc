@@ -40,9 +40,8 @@ for (let i = 0; i < vecsize; i++) {
 let count = 0;
 
 [...horizontals, ...verticals, ...diagonals].forEach((line) => {
-  count += (line.match(/XMAS/g) || []).length += (
-    line.match(/SAMX/g) || []
-  ).length;
+  count += (line.match(/XMAS/g) || []).length;
+  count += (line.match(/SAMX/g) || []).length;
 });
 
 console.log('Appearances:', count);
