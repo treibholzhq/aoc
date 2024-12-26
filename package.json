@@ -14,8 +14,7 @@
   },
   "dependencies": {
     "extensionless": "^1.9.9",
-    "gen-readlines": "^1.0.1",
-    "javascript-algorithms-and-data-structures": "github:trekhleb/javascript-algorithms"
+    "gen-readlines": "^1.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",

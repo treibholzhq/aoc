@@ -14,9 +14,6 @@ importers:
       gen-readlines:
         specifier: ^1.0.1
         version: 1.0.1
-      javascript-algorithms-and-data-structures:
-        specifier: github:trekhleb/javascript-algorithms
-        version: https://codeload.github.com/trekhleb/javascript-algorithms/tar.gz/ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2
     devDependencies:
       '@eslint/js':
         specifier: ^9.16.0
@@ -268,11 +265,6 @@ packages:
 
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
-
-  javascript-algorithms-and-data-structures@https://codeload.github.com/trekhleb/javascript-algorithms/tar.gz/ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2:
-    resolution: {tarball: https://codeload.github.com/trekhleb/javascript-algorithms/tar.gz/ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2}
-    version: 0.0.4
-    engines: {node: '>=16.15.0', npm: '>=8.5.5'}
 
   js-yaml@4.1.0:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
@@ -620,8 +612,6 @@ snapshots:
       is-extglob: 2.1.1
 
   isexe@2.0.0: {}
-
-  javascript-algorithms-and-data-structures@https://codeload.github.com/trekhleb/javascript-algorithms/tar.gz/ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2: {}
 
   js-yaml@4.1.0:
     dependencies:
