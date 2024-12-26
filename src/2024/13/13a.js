@@ -1,3 +1,3 @@
-import cramer from './cramer.mjs';
+import cramer from './cramer';
 
 console.log('Minimum tokens:', cramer());

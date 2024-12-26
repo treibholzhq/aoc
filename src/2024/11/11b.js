@@ -1,3 +1,3 @@
-import blink from './blink.mjs';
+import blink from './blink';
 
 console.log('Stones:', blink(75));

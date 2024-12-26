@@ -5,14 +5,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab",
   "scripts": {
-    "new": "mkdir -p ./$aoc_year/`printf '%02d' $aoc_day`; touch ./$aoc_year/$aoc_day/${aoc_day}a.mjs; touch ./$aoc_year/$aoc_day/${aoc_day}b.mjs; touch ./$aoc_year/$aoc_day/input.txt",
-    "run:a": "node ./$aoc_year/`printf '%02d' $aoc_day`/${aoc_day}a.mjs",
-    "run:b": "node ./$aoc_year/`printf '%02d' $aoc_day`/${aoc_day}b.mjs"
+    "new": "mkdir -p ./src/$aoc_year/`printf '%02d' $aoc_day`; touch ./src/$aoc_year/$aoc_day/${aoc_day}a.js; touch ./src/$aoc_year/$aoc_day/${aoc_day}b.js; touch ./src/$aoc_year/$aoc_day/input.txt",
+    "run:a": "node --import=extensionless/register ./src/$aoc_year/`printf '%02d' $aoc_day`/${aoc_day}a.js",
+    "run:b": "node --import=extensionless/register ./src/$aoc_year/`printf '%02d' $aoc_day`/${aoc_day}b.js"
   },
   "dependencies": {
-    "gen-readlines": "^1.0.1"
+    "extensionless": "^1.9.9",
+    "gen-readlines": "^1.0.1",
+    "javascript-algorithms-and-data-structures": "github:trekhleb/javascript-algorithms"
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
