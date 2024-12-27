@@ -1,6 +1,6 @@
 import { fromFile } from 'gen-readlines';
 
-export default function blink(n) {
+export default function solve(n) {
   const stones = fromFile(`${import.meta.dirname}/input.txt`)
     .next()
     .value.toString()

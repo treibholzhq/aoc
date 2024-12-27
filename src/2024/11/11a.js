@@ -1,3 +1,3 @@
-import blink from './blink';
+import solve from './solve';
 
-console.log('Stones:', blink(25));
+console.log('Stones:', solve(25));

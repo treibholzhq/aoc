@@ -1,3 +1,3 @@
-import cramer from './cramer';
+import solve from './solve';
 
-console.log('Minimum tokens:', cramer());
+console.log('Minimum tokens:', solve());
