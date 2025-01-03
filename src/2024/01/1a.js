@@ -1,10 +1,11 @@
 import { fromFile } from 'gen-readlines';
+import getInputFile from '../../utils/input';
 
 const left = [];
 const right = [];
 const distances = [];
 
-for (const line of fromFile(`${import.meta.dirname}/input.txt`)) {
+for (const line of fromFile(getInputFile(import.meta.dirname))) {
   const [l, r] = line
     .toString()
     .split('   ')
